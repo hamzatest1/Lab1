@@ -2,13 +2,30 @@
 {
     padding: 0;
     margin: 0;
-    border: 10px solid blue;
+    box-sizing: border-box;
  
     
 }
 body
 {
-    background: white;
+    background: lightblue;
     display: flex;
     align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100px;
+    min-height: 100px;
+    background: white;
+}
+.container .left_side
+{
+position: relative;
+width: 100px;
+min-height: 100px;
+background: darkcyan;
 }
