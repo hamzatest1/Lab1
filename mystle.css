@@ -1,12 +1,8 @@
-h1{
-    background-color: aqua;
-}
-h2{
-    background-color: aqua;
-}
-h3{
-    background-color: aqua;
-}
-h4{
-    background-color: aqua;
+p{
+    padding: 40px;
+    margin: 50px;
+    border: 10px solid blue;
+    color:white;
+    background-color: red;
+    
 }
