@@ -1,7 +1,7 @@
 *
 {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
  
     
@@ -18,14 +18,24 @@ body
 .container
 {
     position: relative;
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
     min-height: 100px;
     background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
 }
 .container .left_side
 {
 position: relative;
-width: 100px;
-min-height: 100px;
 background: darkcyan;
+padding: 40px;
+}
+
+.container .right_side
+{
+position: relative;
+background: white;
+padding: 40px;
 }
