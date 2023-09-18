@@ -36,14 +36,9 @@ background: darkcyan;
 padding: 40px;
 }
 
-.container .right-side
-{
-position: relative;
-background: white;
-padding: 40px;
-}
 
-.container .profile-Text
+
+.profile-Text
 {
 position: relative;
 display: flex;
@@ -53,11 +48,27 @@ padding-bottom: 20px;
 border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.container .image-box
+.profile-Text .image-box
 {
 position: relative;
 width: 200px;
 height: 200px;
 border-radius: 50%;
 overflow: hidden;
+}
+.profile-Text .image-box img
+{
+    position:absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+}
+
+
+.container .right-side
+{
+position: relative;
+background: white;
+padding: 40px;
 }
